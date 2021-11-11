@@ -1,0 +1,22 @@
+{
+  "name": "cspl-document-management",
+  "description": "WCG -- AngularJS Component Library",
+  "main": "",
+  "authors": [
+    "CSPL"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "AngularJS",
+    "Component",
+    "Library"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
