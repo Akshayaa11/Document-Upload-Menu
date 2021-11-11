@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('csplDocumentManagementMenuModule')
+        .module('csplDocumentManagementMenu')
         .config(stateConfig);
 
     stateConfig.$inject = ['$stateProvider'];
