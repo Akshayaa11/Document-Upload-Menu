@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('nimbusApp')
+        .module('csplDocumentManagementMenuModule')
         .config(stateConfig);
 
     stateConfig.$inject = ['$stateProvider'];
@@ -22,8 +22,8 @@
                 },
                 views: {
                     'content@': {
-                        templateUrl: 'app/components/cspl-document-management/document-upload-management.html',
-                        controller: 'DocumentUploadManagementController',
+                        templateUrl: 'bower_components/cspl-document-management/document-upload-management.html',
+                        controller: 'DocumentUploadManagementMenuController',
                         controllerAs: 'vm'
                     }
                 },
@@ -50,7 +50,7 @@
                 },
                 views: {
                     'content@': {
-                        templateUrl: 'app/components/cspl-document-management/view-uploaded-documents.html',
+                        templateUrl: 'bower_components/cspl-document-management/view-uploaded-documents.html',
                         controller: 'ViewUploadedDocumentsController',
                         controllerAs: 'vm'
                     }
