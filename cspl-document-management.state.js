@@ -23,7 +23,7 @@
                 views: {
                     'content@': {
                         templateUrl: 'bower_components/cspl-document-management/document-upload-management.html',
-                        controller: 'DocumentUploadManagementMenuController',
+                        controller: 'DocumentUploadManagementController',
                         controllerAs: 'vm'
                     }
                 },
