@@ -2,8 +2,8 @@
     'use strict';
 
     angular
-        .module('csplDocumentManagementMenuModule')
-        .component('csplDocumentManagementMenu', {
+        .module('csplDocumentManagementMenu')
+        .component('csplDocManagementMenu', {
             bindings: {
                 
             },
