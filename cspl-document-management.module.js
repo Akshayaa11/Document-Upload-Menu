@@ -1,3 +1,3 @@
 'use strict';
  
-angular.module('csplDocumentManagementMenuModule', []);
+angular.module('csplDocumentManagementMenu', []);
