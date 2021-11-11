@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('nimbusApp')
+        .module('csplDocumentManagementMenuModule')
         .controller('DocumentUploadManagementController', DocumentUploadManagementController);
 
         DocumentUploadManagementController.$inject = ['$scope'];
