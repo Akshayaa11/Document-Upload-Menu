@@ -2,19 +2,19 @@
     'use strict';
 
     angular
-        .module('nimbusApp')
-        .component('csplDocumentManagement', {
+        .module('csplDocumentManagementMenuModule')
+        .component('csplDocumentManagementMenu', {
             bindings: {
                 
             },
-            templateUrl: '/node_modules/cspl-document-management/cspl-document-management-menu.html',
-            controller: csplDocumentManagementController,
+            templateUrl: '/bower_components/cspl-document-management/cspl-document-management-menu.html',
+            controller: csplDocumentManagementMenuController,
             controllerAs: 'vm'
         });
 
-        csplDocumentManagementController.$inject = ['$scope'];
+        csplDocumentManagementMenuController.$inject = ['$scope'];
 
-    function csplDocumentManagementController($scope) {
+    function csplDocumentManagementMenuController($scope) {
 
         // Scope Variable's
         var vm = this;
