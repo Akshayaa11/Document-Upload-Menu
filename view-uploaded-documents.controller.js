@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('csplDocumentManagementMenuModule')
+        .module('csplDocumentManagementMenu')
         .controller('ViewUploadedDocumentsController', ViewUploadedDocumentsController);
 
         ViewUploadedDocumentsController.$inject = ['$scope'];
